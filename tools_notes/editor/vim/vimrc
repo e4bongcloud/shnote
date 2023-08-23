@@ -1,0 +1,27 @@
+set mouse=a
+set mouse=v
+
+set ignorecase
+set hlsearch
+set autoindent
+set autowrite
+set autoread
+set cindent 
+set paste 
+set showmatch
+set smartcase
+set smarttab
+set smartindent
+set expandtab
+
+set history=256
+set shiftwidth=2
+set tabstop=2
+
+set wildmode=longest,list
+
+set clipboard=unnamedplus
+
+set ttyfast
+syntax on
+set t_Co=256

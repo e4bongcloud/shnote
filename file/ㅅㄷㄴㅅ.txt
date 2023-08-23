@@ -1,0 +1,23 @@
+Configures component scanning directives for use with @Configuration classes. Provides support parallel with Spring XML's <context:component-scan> element.
+Either basePackageClasses or basePackages (or its alias value) may be specified to define specific packages to scan. If specific packages are not defined, scanning will occur from the package of the class that declares this annotation.
+Note that the <context:component-scan> element has an annotation-config attribute; however, this annotation does not. This is because in almost all cases when using @ComponentScan, default annotation config processing (e.g. processing @Autowired and friends) is assumed. Furthermore, when using AnnotationConfigApplicationContext, annotation config processors are always registered, meaning that any attempt to disable them at the @ComponentScan level would be ignored.
+See @Configuration's Javadoc for usage examples.
+
+
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html
+
+
+https://github.com/egyoust/board-a.git
+
+
+172.16.015 - elasticsearch(fleet server)
+
+
+CVE-2023-32233
+리눅스의 넷필터(NetFilter)라는 커널 프레임워크에서 권한 상승 취약점이 발견
+
+
+https://docs.ansible.com/ansible/latest/os_guide/index.html#windows
+
+
+https://www.absolroot.com/b9ff0fed-db69-4336-b97e-6a9f49c5f3e1

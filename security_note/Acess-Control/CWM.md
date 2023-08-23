@@ -1,0 +1,1 @@
+# Clack-Wilson Integrity Model

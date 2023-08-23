@@ -1,0 +1,49 @@
+MVVC
+COC
+Convention over configuration
+* 모든 설정을 개발자가 하는것이 아닌 관례적으로 사용되는 설정을 만들어 제공하는 것을 사용함
+ ***-starter-*** (하나의 의존 라이브러리가 아닌 다수의 의존 관계에 있는 라이브러리들을 설정하게 함)
+
+
+request - response 
+* response : response header + response body
+* 
+``` jsp
+package idusw.springboot.boardthymleaf.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController // anotation 
+public class RestfulController {
+
+}
+
+```
+annotation: 어떤 역할을 할것을 알려주는 기능
+
+클래스를 정의하고 정의된 클래스들로부터 메서드를 행성하고 문제를 해결함
+
+spring은 클래스나 인터페이스에 해당하는 구현코드로부터 객체를 생성해줌 
+
+에노테이션: 
+스트림:
+람다:
+
+XAMARIN
+
+lombok: getter setter를 에노테이션을 통하여 자동으로 생성해줌(상용구 라이브러리, 보일러 플레이트 코드)
+
+jpa.hibernate: sql문을 java에서 바꿔주는 라이브러리
+
+specification: 사양서, 명세서
+
+* java persistance api:영속성 api
+
+* JPA(Java Persistance API): Specification(사양서)
+* ORM(Object Relation Mapping)- 대표 제품:  Hiberanate
+* sql Mapper - 대표 제품 : MyBatis <- iBatis에서 버전업됨
+
+인터페이스: 인터페이스를 만들거나 객체의 구조를 정의
+
+
+Memo Memo Entity로 이름 변경
